@@ -1,0 +1,434 @@
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_Design.deps.json
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_Design.runtimeconfig.json
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_Design.exe
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_ActionLayer.exe
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_ActionLayer.deps.json
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_ActionLayer.runtimeconfig.json
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_ActionLayer.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_ActionLayer.pdb
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Humanizer.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_Design.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_Design.pdb
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.csproj.AssemblyReference.cache
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.AssemblyInfoInputs.cache
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.AssemblyInfo.cs
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.csproj.CoreCompileInputs.cache
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.csproj.CopyComplete
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\refint\CMS_ActionLayer.dll
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.pdb
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.genruntimeconfig.cache
+D:\do-an-repo\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\ref\CMS_ActionLayer.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_Design.deps.json
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_Design.runtimeconfig.json
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_Design.exe
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_ActionLayer.exe
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_ActionLayer.deps.json
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_ActionLayer.runtimeconfig.json
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_ActionLayer.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_ActionLayer.pdb
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_Design.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_Design.pdb
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.csproj.AssemblyReference.cache
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.AssemblyInfoInputs.cache
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.AssemblyInfo.cs
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.csproj.CoreCompileInputs.cache
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.csproj.CopyComplete
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\refint\CMS_ActionLayer.dll
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.pdb
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.genruntimeconfig.cache
+C:\Users\Friday\Source\Repos\do-an-code\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\ref\CMS_ActionLayer.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_Design.deps.json
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_Design.runtimeconfig.json
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_Design.exe
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_ActionLayer.exe
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_ActionLayer.deps.json
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_ActionLayer.runtimeconfig.json
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_ActionLayer.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_ActionLayer.pdb
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\BCrypt.Net-Next.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CloudinaryDotNet.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\FluentEmail.Core.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\FluentEmail.MailKit.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\FluentEmail.Smtp.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\MailKit.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.Html.Abstractions.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.Http.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Net.Http.Headers.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\MimeKit.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\SixLabors.ImageSharp.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Formats.Asn1.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_Design.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_Design.pdb
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.csproj.CopyComplete
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\refint\CMS_ActionLayer.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.pdb
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\ref\CMS_ActionLayer.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Facebook.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\ZaloCSharpSDK.dll
+C:\Users\Admin\Desktop\Project_do_an_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\ZaloDotNetSDK.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_Design.deps.json
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_Design.runtimeconfig.json
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_Design.exe
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_ActionLayer.exe
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_ActionLayer.deps.json
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_ActionLayer.runtimeconfig.json
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_ActionLayer.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_ActionLayer.pdb
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\BCrypt.Net-Next.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CloudinaryDotNet.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Facebook.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\FluentEmail.Core.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\FluentEmail.MailKit.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\FluentEmail.Smtp.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Humanizer.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\MailKit.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.Html.Abstractions.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.Http.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Features.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.WebUtilities.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.ObjectPool.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Net.Http.Headers.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\MimeKit.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\SixLabors.ImageSharp.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Formats.Asn1.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Text.Encoding.CodePages.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\ZaloCSharpSDK.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\ZaloDotNetSDK.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_Design.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_Design.pdb
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.csproj.AssemblyReference.cache
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.AssemblyInfoInputs.cache
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.AssemblyInfo.cs
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.csproj.CoreCompileInputs.cache
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.csproj.CopyComplete
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\refint\CMS_ActionLayer.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.pdb
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.genruntimeconfig.cache
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\ref\CMS_ActionLayer.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Cookies.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Core.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.DataProtection.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Extensions.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.WebEncoders.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Security.Cryptography.Xml.dll
+D:\Projects C#\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Http.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_Design.deps.json
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_Design.runtimeconfig.json
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_Design.exe
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_ActionLayer.exe
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_ActionLayer.deps.json
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_ActionLayer.runtimeconfig.json
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_ActionLayer.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_ActionLayer.pdb
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\BCrypt.Net-Next.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CloudinaryDotNet.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Facebook.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\FluentEmail.Core.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\FluentEmail.MailKit.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\FluentEmail.Smtp.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Humanizer.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\MailKit.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Abstractions.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Cookies.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Core.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.DataProtection.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.Hosting.Abstractions.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.Html.Abstractions.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.Http.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Abstractions.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Extensions.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Features.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.AspNetCore.WebUtilities.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Http.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.ObjectPool.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Extensions.WebEncoders.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Net.Http.Headers.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\MimeKit.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\Newtonsoft.Json.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\SixLabors.ImageSharp.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Drawing.Common.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Formats.Asn1.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Runtime.Caching.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Security.Cryptography.Xml.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Security.Permissions.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Text.Encoding.CodePages.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\System.Windows.Extensions.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\ZaloCSharpSDK.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\ZaloDotNetSDK.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_Design.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\bin\Debug\net6.0\CMS_Design.pdb
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.csproj.AssemblyReference.cache
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.GeneratedMSBuildEditorConfig.editorconfig
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.AssemblyInfoInputs.cache
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.AssemblyInfo.cs
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.csproj.CoreCompileInputs.cache
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.csproj.CopyComplete
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\refint\CMS_ActionLayer.dll
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.pdb
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\CMS_ActionLayer.genruntimeconfig.cache
+F:\Work\BDS\Project_BDS\Project_BDS\DoAnCMSBatDongSan\CMS_ActionLayer\obj\Debug\net6.0\ref\CMS_ActionLayer.dll
