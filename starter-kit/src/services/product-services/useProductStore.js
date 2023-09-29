@@ -26,7 +26,7 @@ export const useProductStore = defineStore('useProductStore', {
     },
     deleteProduct(id){
       return new Promise((resolve, reject) => {
-        axios.put(`/product/DeleteProduct/${id}`)
+        axios.delete(`/product/DeleteProduct/${id}`)
           .then(res => resolve(res))
           .catch(error => reject(error))
       })
