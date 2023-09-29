@@ -2,53 +2,12 @@
 import { useProductStore } from '@/services/product-services/useProductStore'
 import moment from "moment"
 import { onMounted, ref } from 'vue'
+import ModalUpdateProduct from './modules/modal-update-product.vue'
 
 // #region data
 const productStore = useProductStore()
 const products = ref([])
-
-const desserts = ref([
-  {
-    name: 'Frozen Yogurt',
-    calories: 159,
-  },
-  {
-    name: 'Ice cream sandwich',
-    calories: 237,
-  },
-  {
-    name: 'Eclair',
-    calories: 262,
-  },
-  {
-    name: 'Cupcake',
-    calories: 305,
-  },
-  {
-    name: 'Gingerbread',
-    calories: 356,
-  },
-  {
-    name: 'Jelly bean',
-    calories: 375,
-  },
-  {
-    name: 'Lollipop',
-    calories: 392,
-  },
-  {
-    name: 'Honeycomb',
-    calories: 408,
-  },
-  {
-    name: 'Donut',
-    calories: 452,
-  },
-  {
-    name: 'KitKat',
-    calories: 518,
-  },
-])
+const refUpdateProduct = ref()
 
 // #endregion
 
@@ -61,12 +20,18 @@ const getAllProduct = async () => {
 
   products.value = (await productStore.getAll(params)).data
 }
+
+const openUpdateProductDialog = product => {
+  refUpdateProduct.value.openDialog(product)
+} 
 </script>
 
 <template>
   <VCard style="padding: 10px;">
     <div class="d-flex justify-end mb-3">
-      <VBtn>Create new product</VBtn>
+      <VBtn @click="openUpdateProductDialog">
+        Create new product
+      </VBtn>
     </div>
     <VTable
       fixed-header
@@ -113,6 +78,7 @@ const getAllProduct = async () => {
               <VBtn
                 variant="text"
                 size="small"
+                @click="openUpdateProductDialog(item)"
               >
                 Edit
               </VBtn>
@@ -128,9 +94,9 @@ const getAllProduct = async () => {
         </tr>
       </tbody>
     </VTable>
+    <ModalUpdateProduct
+      ref="refUpdateProduct"
+      @refresh-data="getAllProduct"
+    />
   </VCard>
 </template>
-
-<style lang="scss">
-
-</style>

@@ -46,7 +46,7 @@ const emailRules = [
   value => {
     if (value) return true
 
-    return 'E-mail is requred.'
+    return 'E-mail is required.'
   },
   value => {
     if (/.+@.+\..+/.test(value)) return true
@@ -59,7 +59,7 @@ const phoneNumberRules = [
   value => {
     if (value) return true
 
-    return 'Phone number is requred.'
+    return 'Phone number is required.'
   },
   value => {
     if (/(03|05|07|08|09|01[2|6|8|9])+([0-9]{8})\b/.test(value)) return true
@@ -72,7 +72,7 @@ const passwordRules = [
   value => {
     if (value) return true
 
-    return 'Password is requred.'
+    return 'Password is required.'
   },
   value => {
     if (/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/.test(value)) return true
