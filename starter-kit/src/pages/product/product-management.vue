@@ -21,6 +21,16 @@ const getAllProduct = async () => {
   products.value = (await productStore.getAll(params)).data
 }
 
+const deleteProduct = async id => {
+  try {
+    await productStore.deleteProduct(id)
+    getAllProduct()
+    alert('Deleted!')
+  } catch (error) {
+    alert('server_error')
+  }
+}
+
 const openUpdateProductDialog = product => {
   refUpdateProduct.value.openDialog(product)
 } 
@@ -86,6 +96,7 @@ const openUpdateProductDialog = product => {
                 variant="text"
                 size="small"
                 color="#bc2f2f"
+                @click="deleteProduct(item.id)"
               >
                 Delete
               </VBtn>
