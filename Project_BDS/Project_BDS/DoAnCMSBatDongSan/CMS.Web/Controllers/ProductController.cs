@@ -209,7 +209,7 @@ namespace CMS.Web.Controllers
         [Authorize(Roles = "Admin, Mod, Owner")]
         public async Task<IActionResult> GetProductByOwner(int ownerId, int pageSize, int pageNumber)
         {
-            return Ok(await _iProductService.GetProductById(ownerId, pageSize, pageNumber));
+            return Ok(await _iProductService.GetProductByOwner(ownerId, pageSize, pageNumber));
         }
         #endregion
         #region Thống kê về các bất động sản đã bán, chuyên viên chốt giá, giá, hoa hồng
