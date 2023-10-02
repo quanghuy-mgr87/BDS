@@ -651,7 +651,18 @@ namespace CMS_ActionLayer.Service
 
             return _responObjectProduct.ResponseSuccess("Thêm ảnh cho sản phẩm thành công", _productConverter.EntityToDTO(product));
         }
-
+        public async Task<string> DeleteProduct(int productId)
+        {
+            var product = await _context.products.SingleOrDefaultAsync(x => x.Id == productId);
+            if(product == null)
+            {
+                return "Sản phẩm không tồn tại";
+            }
+            product.IsActive = false;
+            _context.products.Update(product);
+            await _context.SaveChangesAsync();
+            return "Xóa sản phẩm thành công";
+        }
         #endregion
         #region Xem thống kê bất động sản - giá bán - địa chỉ - hoa hồng - lịch sử dẫn khách
         public async Task<IQueryable<StatisticsProductInformation>> GetStatisticsProductInformation()

@@ -7441,19 +7441,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\quang\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Work\\BDS\\BDS\\Project_BDS\\Project_BDS\\DoAnCMSBatDongSan\\CMS.Web\\CMS.Web.csproj",
+      "projectUniqueName": "D:\\Projects C#\\BDS\\Project_BDS\\Project_BDS\\DoAnCMSBatDongSan\\CMS.Web\\CMS.Web.csproj",
       "projectName": "CMS.Web",
-      "projectPath": "F:\\Work\\BDS\\BDS\\Project_BDS\\Project_BDS\\DoAnCMSBatDongSan\\CMS.Web\\CMS.Web.csproj",
-      "packagesPath": "C:\\Users\\quang\\.nuget\\packages\\",
-      "outputPath": "F:\\Work\\BDS\\BDS\\Project_BDS\\Project_BDS\\DoAnCMSBatDongSan\\CMS.Web\\obj\\",
+      "projectPath": "D:\\Projects C#\\BDS\\Project_BDS\\Project_BDS\\DoAnCMSBatDongSan\\CMS.Web\\CMS.Web.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects C#\\BDS\\Project_BDS\\Project_BDS\\DoAnCMSBatDongSan\\CMS.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\quang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7461,18 +7461,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "F:\\Work\\BDS\\BDS\\Project_BDS\\Project_BDS\\DoAnCMSBatDongSan\\CMS_ActionLayer\\CMS_ActionLayer.csproj": {
-              "projectPath": "F:\\Work\\BDS\\BDS\\Project_BDS\\Project_BDS\\DoAnCMSBatDongSan\\CMS_ActionLayer\\CMS_ActionLayer.csproj"
+            "D:\\Projects C#\\BDS\\Project_BDS\\Project_BDS\\DoAnCMSBatDongSan\\CMS_ActionLayer\\CMS_ActionLayer.csproj": {
+              "projectPath": "D:\\Projects C#\\BDS\\Project_BDS\\Project_BDS\\DoAnCMSBatDongSan\\CMS_ActionLayer\\CMS_ActionLayer.csproj"
             },
-            "F:\\Work\\BDS\\BDS\\Project_BDS\\Project_BDS\\DoAnCMSBatDongSan\\CMS_Design\\CMS_Design.csproj": {
-              "projectPath": "F:\\Work\\BDS\\BDS\\Project_BDS\\Project_BDS\\DoAnCMSBatDongSan\\CMS_Design\\CMS_Design.csproj"
+            "D:\\Projects C#\\BDS\\Project_BDS\\Project_BDS\\DoAnCMSBatDongSan\\CMS_Design\\CMS_Design.csproj": {
+              "projectPath": "D:\\Projects C#\\BDS\\Project_BDS\\Project_BDS\\DoAnCMSBatDongSan\\CMS_Design\\CMS_Design.csproj"
             }
           }
         }
@@ -7561,7 +7560,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   },

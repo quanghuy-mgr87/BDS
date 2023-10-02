@@ -51,5 +51,6 @@ namespace CMS_Design.IService
         Task<GeocodingResult> GetCoordinatesAsync(string address);
         Task<string> CreateRequestChangeStatusWhenClosingSuccessfully(int productId);
         Task<IQueryable<ProductDTO>> GetAllProducts(int pageSize, int pageNumber);
+        Task<string> DeleteProduct(int productId);
     }
 }

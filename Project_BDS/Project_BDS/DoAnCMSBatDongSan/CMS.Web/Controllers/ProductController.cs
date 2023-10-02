@@ -172,7 +172,12 @@ namespace CMS.Web.Controllers
         {
             return Ok(await _iProductService.GetStatisticsProductInformation());
         }
-
+        [HttpPut("/api/product/DeleteProduct")]
+        [Authorize(Roles = "Admin, Mod, Manager, Owner")]
+        public async Task<IActionResult> DeleteProduct(int productId)
+        {
+            return Ok(await _iProductService.DeleteProduct(productId));
+        }
         [HttpPost("/api/product/AddImageForProduct/{productId}")]
         [Authorize(Roles = "Admin, Owner")]
         public async Task<IActionResult> AddImageForProduct(int productId, [FromForm] Request_CreateProductImg request)
