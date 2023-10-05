@@ -26,7 +26,7 @@ const getAllProduct = async () => {
 }
 
 const deleteProduct = async isConfirm => {
-  try {
+  try {  
     if(isConfirm){
       await productStore.deleteProduct(productDeleteId.value)
       getAllProduct()
