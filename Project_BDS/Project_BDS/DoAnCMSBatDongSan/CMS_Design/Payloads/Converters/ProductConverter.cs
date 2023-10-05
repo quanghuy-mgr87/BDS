@@ -20,6 +20,7 @@ namespace CMS_Design.Payloads.Converters
                 Build = product.Build,
                 CertificateOfLand1 = product.CertificateOfLand1,
                 CertificateOfLand2 = product.CertificateOfLand2,
+                PhanTramChiaNV = product.PhanTramChiaNV,
                 DauChuId = product.DauChuId,
                 GiaBan = product.GiaBan,
                 Address = product.Address,

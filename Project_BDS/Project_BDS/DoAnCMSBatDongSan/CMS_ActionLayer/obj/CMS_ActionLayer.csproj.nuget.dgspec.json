@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects C#\\BDS\\Project_BDS\\Project_BDS\\DoAnCMSBatDongSan\\CMS_ActionLayer\\CMS_ActionLayer.csproj": {}
+    "F:\\Work\\BDS\\BDS\\Project_BDS\\Project_BDS\\DoAnCMSBatDongSan\\CMS_ActionLayer\\CMS_ActionLayer.csproj": {}
   },
   "projects": {
-    "D:\\Projects C#\\BDS\\Project_BDS\\Project_BDS\\DoAnCMSBatDongSan\\CMS_ActionLayer\\CMS_ActionLayer.csproj": {
+    "F:\\Work\\BDS\\BDS\\Project_BDS\\Project_BDS\\DoAnCMSBatDongSan\\CMS_ActionLayer\\CMS_ActionLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects C#\\BDS\\Project_BDS\\Project_BDS\\DoAnCMSBatDongSan\\CMS_ActionLayer\\CMS_ActionLayer.csproj",
+        "projectUniqueName": "F:\\Work\\BDS\\BDS\\Project_BDS\\Project_BDS\\DoAnCMSBatDongSan\\CMS_ActionLayer\\CMS_ActionLayer.csproj",
         "projectName": "CMS_ActionLayer",
-        "projectPath": "D:\\Projects C#\\BDS\\Project_BDS\\Project_BDS\\DoAnCMSBatDongSan\\CMS_ActionLayer\\CMS_ActionLayer.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects C#\\BDS\\Project_BDS\\Project_BDS\\DoAnCMSBatDongSan\\CMS_ActionLayer\\obj\\",
+        "projectPath": "F:\\Work\\BDS\\BDS\\Project_BDS\\Project_BDS\\DoAnCMSBatDongSan\\CMS_ActionLayer\\CMS_ActionLayer.csproj",
+        "packagesPath": "C:\\Users\\quang\\.nuget\\packages\\",
+        "outputPath": "F:\\Work\\BDS\\BDS\\Project_BDS\\Project_BDS\\DoAnCMSBatDongSan\\CMS_ActionLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\quang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Projects C#\\BDS\\Project_BDS\\Project_BDS\\DoAnCMSBatDongSan\\CMS_Design\\CMS_Design.csproj": {
-                "projectPath": "D:\\Projects C#\\BDS\\Project_BDS\\Project_BDS\\DoAnCMSBatDongSan\\CMS_Design\\CMS_Design.csproj"
+              "F:\\Work\\BDS\\BDS\\Project_BDS\\Project_BDS\\DoAnCMSBatDongSan\\CMS_Design\\CMS_Design.csproj": {
+                "projectPath": "F:\\Work\\BDS\\BDS\\Project_BDS\\Project_BDS\\DoAnCMSBatDongSan\\CMS_Design\\CMS_Design.csproj"
               }
             }
           }
@@ -141,21 +141,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projects C#\\BDS\\Project_BDS\\Project_BDS\\DoAnCMSBatDongSan\\CMS_Design\\CMS_Design.csproj": {
+    "F:\\Work\\BDS\\BDS\\Project_BDS\\Project_BDS\\DoAnCMSBatDongSan\\CMS_Design\\CMS_Design.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects C#\\BDS\\Project_BDS\\Project_BDS\\DoAnCMSBatDongSan\\CMS_Design\\CMS_Design.csproj",
+        "projectUniqueName": "F:\\Work\\BDS\\BDS\\Project_BDS\\Project_BDS\\DoAnCMSBatDongSan\\CMS_Design\\CMS_Design.csproj",
         "projectName": "CMS_Design",
-        "projectPath": "D:\\Projects C#\\BDS\\Project_BDS\\Project_BDS\\DoAnCMSBatDongSan\\CMS_Design\\CMS_Design.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects C#\\BDS\\Project_BDS\\Project_BDS\\DoAnCMSBatDongSan\\CMS_Design\\obj\\",
+        "projectPath": "F:\\Work\\BDS\\BDS\\Project_BDS\\Project_BDS\\DoAnCMSBatDongSan\\CMS_Design\\CMS_Design.csproj",
+        "packagesPath": "C:\\Users\\quang\\.nuget\\packages\\",
+        "outputPath": "F:\\Work\\BDS\\BDS\\Project_BDS\\Project_BDS\\DoAnCMSBatDongSan\\CMS_Design\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\quang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -214,7 +214,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

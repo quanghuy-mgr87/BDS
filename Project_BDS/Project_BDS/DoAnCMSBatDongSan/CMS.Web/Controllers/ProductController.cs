@@ -97,23 +97,21 @@ namespace CMS.Web.Controllers
         #endregion
         #region CRUD Sản phẩm
         [HttpPost("/api/product/AddNewProduct")]
-        //[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
-        //[Authorize(Roles = "Admin, Manager, Owner")]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [Authorize(Roles = "Admin, Manager, Owner")]
         public async Task<IActionResult> AddNewProduct(Request_AddNewProduct request)
         {
             try
             {
-                //if (!ModelState.IsValid)
-                //{
-                //    return BadRequest(ModelState);
-                //}
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
 
-                //if (!int.TryParse(HttpContext.User.FindFirst("Id")?.Value, out int id))
-                //{
-                //    return BadRequest("Id người dùng không hợp lệ");
-                //}
-
-                var id = request.DauChuId;
+                if (!int.TryParse(HttpContext.User.FindFirst("Id")?.Value, out int id))
+                {
+                    return BadRequest("Id người dùng không hợp lệ");
+                }
 
                 var result = await _iProductService.AddNewProduct(id, request);
 
@@ -132,22 +130,20 @@ namespace CMS.Web.Controllers
             }
         }
         [HttpPut("/api/product/UpdateProduct/{productId}")]
-        //[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         public async Task<IActionResult> UpdateProduct(int productId, Request_UpdateProduct request)
         {
             try
             {
-                //if (!ModelState.IsValid)
-                //{
-                //    return BadRequest(ModelState);
-                //}
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
 
-                //if (!int.TryParse(HttpContext.User.FindFirst("Id")?.Value, out int id))
-                //{
-                //    return BadRequest("Id người dùng không hợp lệ");
-                //}
-
-                var id = request.DauChuId;
+                if (!int.TryParse(HttpContext.User.FindFirst("Id")?.Value, out int id))
+                {
+                    return BadRequest("Id người dùng không hợp lệ");
+                }
 
                 var result = await _iProductService.UpdateProduct(productId, id, request);
 
@@ -172,7 +168,7 @@ namespace CMS.Web.Controllers
         {
             return Ok(await _iProductService.GetStatisticsProductInformation());
         }
-        [HttpPut("/api/product/DeleteProduct")]
+        [HttpDelete("/api/product/DeleteProduct/{productId}")]
         [Authorize(Roles = "Admin, Mod, Manager, Owner")]
         public async Task<IActionResult> DeleteProduct(int productId)
         {

@@ -1,5 +1,5 @@
 <script setup>
-import { parseJwt } from '@/helper/helper'
+import useEmitter from '@/helper/useEmitter'
 import { useProductStore } from '@/services/product-services/useProductStore'
 import { onMounted, ref } from "vue"
 
@@ -12,6 +12,7 @@ const productStore = useProductStore()
 const loading = ref(false)
 const form = ref()
 const userInfo = ref()
+const emitter = useEmitter()
 
 const requireFieldRule = [
   value => {
@@ -37,9 +38,6 @@ const phoneNumberRules = [
 // #endregion
 
 onMounted(() => {
-  const token = localStorage.getItem('accessToken')
-
-  userInfo.value = parseJwt(token)
 })
 
 
@@ -55,19 +53,25 @@ const updateProduct = async () => {
   loading.value = true
   if(valid){
     try {
-      productInfo.value.dauChuId = userInfo.value.Id
       if(!productInfo.value.id){
         await productStore.addNewProduct(productInfo.value)
       }
       else{
         await productStore.updateProduct(productInfo.value.id, productInfo.value)
       }
-      alert('update success')
+      emitter.emit('showAlert', {
+        type: 'success',
+        content: 'Success!',
+      })
       dialog.value=false
       loading.value = false
       emit('refreshData')
     } catch (error) {
-      alert('server error')
+      console.log(error)
+      emitter.emit('showAlert', {
+        type: 'error',
+        content: 'Server error',
+      })
       loading.value = false
     }
   }

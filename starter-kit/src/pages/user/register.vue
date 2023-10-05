@@ -1,4 +1,5 @@
 <script setup>
+import useEmitter from '@/helper/useEmitter'
 import { useUserStore } from '@/services/user-services/useUserStore'
 import { useGenerateImageVariant } from '@core/composable/useGenerateImageVariant'
 import authV2LoginIllustrationBorderedDark from '@images/pages/auth-v2-login-illustration-bordered-dark.png'
@@ -21,6 +22,8 @@ const userStore = useUserStore()
 const confirmCode = ref()
 const isConfirm = ref(false)
 const refVForm = ref()
+const router = useRouter()
+const emitter = useEmitter()
 
 const user = ref({
   // username: 'admin',
@@ -45,7 +48,7 @@ const nameRules = [
 const emailRules = [
   value => {
     if (value) return true
-
+    
     return 'E-mail is required.'
   },
   value => {
@@ -101,11 +104,17 @@ const signUp = async () => {
     try {
       loading.value = true
       await  userStore.addUser(user.value)
-      alert('success')
+      emitter.emit('showAlert', {
+        type: 'success',
+        content: 'Success',
+      })
       isConfirm.value=true
       loading.value =false
     } catch (error) {
-      alert('server_error')
+      emitter.emit('showAlert', {
+        type: 'error',
+        content: 'Server error',
+      })
       loading.value =false
     }
   }
@@ -121,7 +130,19 @@ const onConfirm = async () => {
     confirmCode: confirmCode.value,
   }
 
-  await userStore.confirmAddUser(params)
+  try {
+    await userStore.confirmAddUser(params)
+    emitter.emit('showAlert', {
+      type: 'success',
+      content: 'Success',
+    })
+    router.push('/')
+  } catch (error) {
+    emitter.emit('showAlert', {
+      type: 'error',
+      content: 'Server error',
+    })
+  }
 }
 
 // #endregion
@@ -137,7 +158,7 @@ const onConfirm = async () => {
       class="d-none d-lg-flex"
     >
       <div class="position-relative bg-background rounded-lg w-100 ma-8 me-0">
-        <div class="d-flex align-center justify-center w-100 h-100">
+        <div class="d-flex align-center justify-center w-100">
           <VImg
             max-width="505"
             :src="authThemeImg"
@@ -170,11 +191,11 @@ const onConfirm = async () => {
           />
 
           <h5 class="text-h5 mb-1">
-            Hành trình của bạn bắt đầu từ đây 🚀
+            Adventure starts here 🚀
           </h5>
 
           <p class="mb-0">
-            Làm cho việc quản lý ứng dụng của bạn dễ dàng và vui vẻ hơn!
+            Make your app management easy and fun!
           </p>
         </VCardText>
 
@@ -185,7 +206,7 @@ const onConfirm = async () => {
               <VCol cols="12">
                 <AppTextField
                   v-model="user.username"
-                  label="Tài khoản"
+                  label="Username"
                   type="text"
                   autofocus
                   :rules="nameRules"
@@ -206,7 +227,7 @@ const onConfirm = async () => {
               <VCol cols="12">
                 <AppTextField
                   v-model="user.name"
-                  label="Họ tên"
+                  label="Full name"
                   type="text"
                 />
               </VCol>
@@ -215,7 +236,7 @@ const onConfirm = async () => {
               <VCol cols="12">
                 <AppTextField
                   v-model="user.phoneNumber"
-                  label="Số điện thoại"
+                  label="Phone number"
                   type="text"
                   :rules="phoneNumberRules"
                 />
@@ -225,7 +246,7 @@ const onConfirm = async () => {
               <VCol cols="12">
                 <AppTextField
                   v-model="user.password"
-                  label="Mật khẩu"
+                  label="Password"
                   :type="isPasswordVisible ? 'text' : 'password'"
                   :append-inner-icon="isPasswordVisible ? 'tabler-eye-off' : 'tabler-eye'"
                   :rules="passwordRules"
@@ -237,7 +258,7 @@ const onConfirm = async () => {
               <VCol cols="12">
                 <AppTextField
                   v-model="user.passwordConfirm"
-                  label="Nhập lại mật khẩu"
+                  label="Confirm password"
                   :rules="confirmPasswordRules"
                   :type="isPasswordConfirmVisible ? 'text' : 'password'"
                   :append-inner-icon="isPasswordConfirmVisible ? 'tabler-eye-off' : 'tabler-eye'"
@@ -252,7 +273,7 @@ const onConfirm = async () => {
                   :loading="loading"
                   @click="signUp"
                 >
-                  Đăng ký tài khoản
+                  Sign up
                 </VBtn>
               </VCol>
               
@@ -261,12 +282,12 @@ const onConfirm = async () => {
                 cols="12"
                 class="text-center text-base"
               >
-                <span>Bạn đã có tài khoản?</span>
+                <span>Already have an account?</span>
                 <RouterLink
                   class="text-primary ms-2"
                   to="/"
                 >
-                  Chuyển đến đăng nhập
+                  Sign in instead
                 </RouterLink>
               </VCol>
             </VRow>
@@ -281,11 +302,11 @@ const onConfirm = async () => {
           />
 
           <h5 class="text-h5 mb-1">
-            Mã xác thực  đã được gửi🚀
+            Verification code has been sent to your email 🚀
           </h5>
 
           <p class="mb-0">
-            Vui lòng nhập mã xác thực để hoàn thành đăng ký!
+            Please check your email, then enter the verification code to complete registration!
           </p>
         </VCardText>
         <VCardText>

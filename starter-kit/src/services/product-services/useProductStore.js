@@ -10,6 +10,13 @@ export const useProductStore = defineStore('useProductStore', {
           .catch(error => reject(error))
       })
     },
+    getProductSoldAndPrices(params){
+      return new Promise((resolve, reject) => {
+        axios.get('/product/GetProductSoldAndPrices', { ...params })
+          .then(res => resolve(res))
+          .catch(error => reject(error))
+      })
+    },
     addNewProduct(params){
       return new Promise((resolve, reject) => {
         axios.post('/product/AddNewProduct', { ...params })

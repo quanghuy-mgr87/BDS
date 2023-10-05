@@ -1,10 +1,20 @@
 <script setup>
 import avatar1 from '@images/avatars/avatar-1.png'
+import { onMounted } from 'vue'
 
 const logout = () => {
   localStorage.removeItem('accessToken')
   localStorage.removeItem('refreshToken')
+  localStorage.removeItem('userInfo')
 }
+
+const userInfo = ref({
+  
+})
+
+onMounted(()=>{
+  userInfo.value = JSON.parse(localStorage.getItem('userInfo'))
+})
 </script>
 
 <template>
@@ -53,9 +63,9 @@ const logout = () => {
             </template>
 
             <VListItemTitle class="font-weight-semibold">
-              Trần Minh Quân
+              {{ userInfo.UserName }}
             </VListItemTitle>
-            <VListItemSubtitle>Admin</VListItemSubtitle>
+            <VListItemSubtitle>{{ userInfo.email }}</VListItemSubtitle>
           </VListItem>
 
           <VDivider class="my-2" />
@@ -70,7 +80,7 @@ const logout = () => {
               />
             </template>
 
-            <VListItemTitle>Thông tin cá nhân</VListItemTitle>
+            <VListItemTitle>Profile</VListItemTitle>
           </VListItem>
 
           <!-- 👉 Settings -->
@@ -83,20 +93,7 @@ const logout = () => {
               />
             </template>
 
-            <VListItemTitle>Cài đặt</VListItemTitle>
-          </VListItem>
-
-          <!-- 👉 Pricing -->
-          <VListItem link>
-            <template #prepend>
-              <VIcon
-                class="me-2"
-                icon="tabler-currency-dollar"
-                size="22"
-              />
-            </template>
-
-            <VListItemTitle>Định giá</VListItemTitle>
+            <VListItemTitle>Setting</VListItemTitle>
           </VListItem>
 
           <!-- 👉 FAQ -->
@@ -126,7 +123,7 @@ const logout = () => {
             </template>
 
             <VListItemTitle @click="logout">
-              Đăng xuất
+              Log out
             </VListItemTitle>
           </VListItem>
         </VList>

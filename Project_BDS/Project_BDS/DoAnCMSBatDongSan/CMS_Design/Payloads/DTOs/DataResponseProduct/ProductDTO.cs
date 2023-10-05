@@ -20,6 +20,7 @@ namespace CMS_Design.Payloads.DTOs.DataResponseProduct
         public int DauChuId { get; set; }
         public DateTime BatDauBan { get; set; }
         public double GiaBan { get; set; }
+        public double PhanTramChiaNV { get; set; }
         public IQueryable<ProductImgDTO> ProductImgDTOs { get; set; }
     }
 }

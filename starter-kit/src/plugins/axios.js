@@ -24,7 +24,8 @@ axiosIns.interceptors.request.use(config => {
 
     // Set authorization header
     // ℹ️ JSON.parse will convert token to string
-    // config.headers.Authorization = token ? `Bearer ${JSON.parse(token)}` : ''
+
+    config.headers.Authorization = token ? `Bearer ${token}` : ''
   }
 
   // Return modified config

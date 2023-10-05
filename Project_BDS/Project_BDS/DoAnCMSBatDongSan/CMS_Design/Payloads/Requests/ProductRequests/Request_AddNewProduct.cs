@@ -9,7 +9,6 @@ namespace CMS_Design.Payloads.Requests.ProductRequests
 {
     public class Request_AddNewProduct
     {
-        public int DauChuId { get; set; }
         public string HostName { get; set; }
         public string HostPhoneNumber { get; set; }
         public DateTime? Build { get; set; }

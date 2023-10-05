@@ -1,4 +1,5 @@
 <script setup>
+import useEmitter from '@/helper/useEmitter'
 import { useUserStore } from '@/services/user-services/useUserStore'
 import { useGenerateImageVariant } from '@core/composable/useGenerateImageVariant'
 import authV2LoginIllustrationBorderedDark from '@images/pages/auth-v2-login-illustration-bordered-dark.png'
@@ -20,6 +21,7 @@ const isPasswordVisible = ref(false)
 const rememberMe = ref(false)
 const refVForm = ref()
 const router=useRouter()
+const emitter = useEmitter()
 
 // #region rules
 const usernameRules = [
@@ -52,6 +54,16 @@ const user = ref({
 
 const loading = ref(false)
 
+const  parseJwt = token => {
+  var base64Url = token.split('.')[1]
+  var base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/')
+  var jsonPayload = decodeURIComponent(window.atob(base64).split('').map(function(c) {
+    return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2)
+  }).join(''))
+
+  return JSON.parse(jsonPayload)
+}
+
 const onLogin = async () => {
   const { valid } = await refVForm.value.validate()
   if(valid){
@@ -60,15 +72,30 @@ const onLogin = async () => {
     const res = (await userStore.login(user.value)).data
 
     if(res.status === 200){
-      alert(res.message)
+      emitter.emit('showAlert', {
+        type: 'success',
+        content: res.message,
+      })
       if(!localStorage.getItem('accessToken')){
         localStorage.setItem('accessToken', res.data.accessToken)
         localStorage.setItem('refreshToken', res.data.refreshToken)
+
+        const accessToken = localStorage.getItem('accessToken')
+
+        var decoded = parseJwt(accessToken)
+
+        localStorage.setItem('userInfo', JSON.stringify(decoded))
       }
       router.push({ path: '/' })
     }
     else{
-      alert(res.message)
+      const alert = {
+        type: 'error',
+        content: res.message,
+      }
+
+      emitter.emit('showAlert', alert)
+
     }
 
     loading.value = false
@@ -123,11 +150,11 @@ const onLogin = async () => {
           />
 
           <h5 class="text-h5 mb-1">
-            Chào mừng bạn đến với <span class="text-capitalize"> {{ themeConfig.app.title }} </span>! 👋🏻
+            Welcome to <span class="text-capitalize"> {{ themeConfig.app.title }} </span>! 👋🏻
           </h5>
 
           <p class="mb-0">
-            Vui lòng đăng nhập để có được trải nghiệm tốt nhất
+            Please sign-in to your account and start the adventure
           </p>
         </VCardText>
 
@@ -138,7 +165,7 @@ const onLogin = async () => {
               <VCol cols="12">
                 <AppTextField
                   v-model="user.username"
-                  label="Tài khoản"
+                  label="Username"
                   type="text"
                   :rules="usernameRules"
                   autofocus
@@ -149,7 +176,7 @@ const onLogin = async () => {
               <VCol cols="12">
                 <AppTextField
                   v-model="user.password"
-                  label="Mật khẩu"
+                  label="Password"
                   :rules="passwordRules"
                   :type="isPasswordVisible ? 'text' : 'password'"
                   :append-inner-icon="isPasswordVisible ? 'tabler-eye-off' : 'tabler-eye'"
@@ -159,13 +186,13 @@ const onLogin = async () => {
                 <div class="d-flex align-center flex-wrap justify-space-between mt-2 mb-4">
                   <VCheckbox
                     v-model="rememberMe"
-                    label="Lưu mật khẩu"
+                    label="Save password"
                   />
                   <a
                     class="text-primary ms-2 mb-1"
                     href="#"
                   >
-                    Quên mật khẩu?
+                    Fogot password?
                   </a>
                 </div>
 
@@ -174,7 +201,7 @@ const onLogin = async () => {
                   :loading="loading"
                   @click="onLogin"
                 >
-                  Đăng nhập
+                  Sign in
                 </VBtn>
               </VCol>
 
@@ -188,7 +215,7 @@ const onLogin = async () => {
                   style="cursor: pointer;"
                   @click="() => {router.push({ path: '/register' })}"
                 >
-                  Đăng ký tài khoản 
+                  Create an account?
                 </a>
               </VCol>
 

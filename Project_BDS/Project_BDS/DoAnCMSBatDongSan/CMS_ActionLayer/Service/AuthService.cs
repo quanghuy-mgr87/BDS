@@ -133,10 +133,10 @@ namespace CMS_ActionLayer.Service
                 {
                     new Claim("Id", user.Id.ToString()),
                     new Claim(ClaimTypes.Email, user.Email),
-                    //new Claim("Decentralization", user.Role.Code),
+                    new Claim("Decentralization", user.Role.Code),
                     new Claim("UserName", user.UserName),
-                    //new Claim("RoleId", user.RoleId.ToString()),
-                    //new Claim(ClaimTypes.Role, decentralization?.Code ?? "")
+                    new Claim("RoleId", user.RoleId.ToString()),
+                    new Claim(ClaimTypes.Role, decentralization?.Code ?? "")
                 }),
                 Expires = DateTime.Now.AddHours(4),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(secretKeyBytes), SecurityAlgorithms.HmacSha256Signature)
@@ -241,8 +241,8 @@ namespace CMS_ActionLayer.Service
                     user.UpdateTime = DateTime.Now;
                     user.DateOfBirth = request.DateOfBirth;
                     user.Name = request.Name;
-                    //user.RoleId = 6;
-                    //user.StatusId = 1;
+                    user.RoleId = 6;
+                    user.StatusId = 1;
                     var team = await _context.teams.FirstOrDefaultAsync(x => x.Id == request.TeamId && x.StatusId == 1);
                     //if(team is null)
                     //{
@@ -379,7 +379,7 @@ namespace CMS_ActionLayer.Service
                 return _responseObject.ResponseError(StatusCodes.Status400BadRequest, "Mã xác nhận đã hết hạn", null);
             }
             User user = await _context.users.FirstOrDefaultAsync(x => x.Id == confirmEmail.UserId);
-            //user.StatusId = 2;
+            user.StatusId = 2;
             _context.confirmEmails.Remove(confirmEmail);
             _context.users.Update(user);
             await _context.SaveChangesAsync();

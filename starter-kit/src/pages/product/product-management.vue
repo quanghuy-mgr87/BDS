@@ -1,13 +1,17 @@
 <script setup>
-import { useProductStore } from '@/services/product-services/useProductStore'
+import useEmitter from '@/helper/useEmitter'
+import { useProductStore } from "@/services/product-services/useProductStore"
 import moment from "moment"
-import { onMounted, ref } from 'vue'
-import ModalUpdateProduct from './modules/modal-update-product.vue'
+import { onMounted, ref } from "vue"
+import ModalUpdateProduct from "./modules/modal-update-product.vue"
 
 // #region data
 const productStore = useProductStore()
 const products = ref([])
 const refUpdateProduct = ref()
+const showConfirmDialog = ref(false)
+const productDeleteId = ref()
+const emitter = useEmitter()
 
 // #endregion
 
@@ -21,23 +25,33 @@ const getAllProduct = async () => {
   products.value = (await productStore.getAll(params)).data
 }
 
-const deleteProduct = async id => {
+const deleteProduct = async isConfirm => {
   try {
-    await productStore.deleteProduct(id)
-    getAllProduct()
-    alert('Deleted!')
+    if(isConfirm){
+      await productStore.deleteProduct(productDeleteId.value)
+      getAllProduct()
+      emitter.emit('showAlert', {
+        type: 'success',
+        content: 'Success!',
+      })
+    }
+    
   } catch (error) {
-    alert('server_error')
+    emitter.emit('showAlert', {
+      type: 'error',
+      content: 'Server error!',
+    })
   }
+  showConfirmDialog.value = false
 }
 
 const openUpdateProductDialog = product => {
   refUpdateProduct.value.openDialog(product)
-} 
+}
 </script>
 
 <template>
-  <VCard style="padding: 10px;">
+  <VCard style="padding: 10px">
     <div class="d-flex justify-end mb-3">
       <VBtn @click="openUpdateProductDialog">
         Create new product
@@ -68,7 +82,7 @@ const openUpdateProductDialog = product => {
             Certificate of land 2
           </th>
           <th class="text-left">
-            Thao tác
+            Action
           </th>
         </tr>
       </thead>
@@ -80,11 +94,11 @@ const openUpdateProductDialog = product => {
           <td>{{ index + 1 }}</td>
           <td>{{ item.hostName }}</td>
           <td>{{ item.hostPhoneNumber }}</td>
-          <td>{{ moment(item.build).format('DD/MM/YYYY') }}</td>
+          <td>{{ moment(item.build).format("DD/MM/YYYY") }}</td>
           <td>{{ item.certificateOfLand1 }}</td>
           <td>{{ item.certificateOfLand2 }}</td>
           <td>
-            <div style="display: flex; justify-content: space-between;">
+            <div style="display: flex; justify-content: space-between">
               <VBtn
                 variant="text"
                 size="small"
@@ -96,7 +110,12 @@ const openUpdateProductDialog = product => {
                 variant="text"
                 size="small"
                 color="#bc2f2f"
-                @click="deleteProduct(item.id)"
+                @click="
+                  () => {
+                    showConfirmDialog = true;
+                    productDeleteId = item.id;
+                  }
+                "
               >
                 Delete
               </VBtn>
@@ -105,6 +124,12 @@ const openUpdateProductDialog = product => {
         </tr>
       </tbody>
     </VTable>
+    <ConfirmDialog
+      :is-dialog-visible="showConfirmDialog"
+      confirmation-question="Are you sure to delete this item?"
+      confirm-title="Success"
+      @confirm="deleteProduct"
+    />
     <ModalUpdateProduct
       ref="refUpdateProduct"
       @refresh-data="getAllProduct"

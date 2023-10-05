@@ -7,18 +7,20 @@ import { loadFonts } from '@/plugins/webfontloader'
 import router from '@/router'
 import '@core/scss/template/index.scss'
 import '@styles/styles.scss'
-import moment from 'moment'
+import mitt from 'mitt'
+
 import { createPinia } from 'pinia'
 import { createApp } from 'vue'
 
-
 loadFonts()
+
+const emitter = mitt()
 
 
 // Create vue app
 const app = createApp(App)
 
-app.config.globalProperties.$moment=moment
+app.config.globalProperties.emitter = emitter
 
 
 // Use plugins

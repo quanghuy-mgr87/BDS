@@ -516,15 +516,15 @@ namespace CMS_ActionLayer.Service
                 var dauChu = await _context.users.FirstOrDefaultAsync(x => x.Id == dauChuId);
                 var currentUser = _httpContextAccessor.HttpContext.User;
 
-                //if (!currentUser.Identity.IsAuthenticated)
-                //{
-                //    throw new UnauthorizedAccessException("Người dùng không được xác thực hoặc không được xác định");
-                //}
+                if (!currentUser.Identity.IsAuthenticated)
+                {
+                    throw new UnauthorizedAccessException("Người dùng không được xác thực hoặc không được xác định");
+                }
 
-                //if (!currentUser.IsInRole("Admin") && !currentUser.IsInRole("Owner") && !currentUser.IsInRole("Manager"))
-                //{
-                //    throw new UnauthorizedAccessException("Người dùng không có quyền sử dụng chức năng này");
-                //}
+                if (!currentUser.IsInRole("Admin") && !currentUser.IsInRole("Owner") && !currentUser.IsInRole("Manager"))
+                {
+                    throw new UnauthorizedAccessException("Người dùng không có quyền sử dụng chức năng này");
+                }
                 var createProduct = new Product
                 {
                     BatDauBan = request.BatDauBan,
@@ -654,7 +654,7 @@ namespace CMS_ActionLayer.Service
         public async Task<string> DeleteProduct(int productId)
         {
             var product = await _context.products.SingleOrDefaultAsync(x => x.Id == productId);
-            if(product == null)
+            if (product == null)
             {
                 return "Sản phẩm không tồn tại";
             }
@@ -725,6 +725,7 @@ namespace CMS_ActionLayer.Service
                 .OrderByDescending(x => x.BatDauBan)
                 .Include(x => x.DauChu)
                 .Include(x => x.PhieuXemNhas)
+                .Where(x => x.IsActive.Value)
                 .ToListAsync();
 
             var productDTOs = productQuery.Select(x => _productConverter.EntityToDTO(x)).ToList();

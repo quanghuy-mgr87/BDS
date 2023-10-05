@@ -1,7 +1,7 @@
+import { roleEnum } from '@/helper/roleEnum'
+import { hasRoles } from '@/helper/roleServices'
 import { setupLayouts } from 'virtual:generated-layouts'
 import { createRouter, createWebHistory } from 'vue-router'
-
-
 import routes from '~pages'
 
 const router = createRouter({
@@ -20,6 +20,28 @@ const router = createRouter({
     {
       path: '/register',
       component: () => import('@/pages/user/register.vue'),
+    },
+    {
+      path: '/product/product-management',
+      redirect: to => {
+        if(localStorage.getItem('accessToken') && hasRoles([roleEnum.ADMIN, roleEnum.MANAGER, roleEnum.OWNER])) {
+          return { name: 'product-product-management' }
+        }
+        
+        return { name: 'not-authorized', query: to.query }
+        
+      },
+    },
+    {
+      path: '/soldproducts/sold-product-list',
+      redirect: to => {
+        if(localStorage.getItem('accessToken') && hasRoles([roleEnum.ADMIN, roleEnum.MANAGER, roleEnum.OWNER])) {
+          return { name: 'soldProducts-sold-product-list' }
+        }
+        
+        return { name: 'not-authorized', query: to.query }
+        
+      },
     },
     ...setupLayouts(routes),
   ],
