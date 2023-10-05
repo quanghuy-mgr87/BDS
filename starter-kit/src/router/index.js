@@ -33,7 +33,7 @@ const router = createRouter({
       },
     },
     {
-      path: '/soldproducts/sold-product-list',
+      path: '/soldProducts/sold-product-list',
       redirect: to => {
         if(localStorage.getItem('accessToken') && hasRoles([roleEnum.ADMIN, roleEnum.MANAGER, roleEnum.OWNER])) {
           return { name: 'soldProducts-sold-product-list' }

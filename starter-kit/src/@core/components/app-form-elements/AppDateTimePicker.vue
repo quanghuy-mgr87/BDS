@@ -11,8 +11,8 @@ import {
   makeVInputProps,
 } from 'vuetify/lib/components/VInput/VInput'
 
-import { filterInputAttrs } from 'vuetify/lib/util/helpers'
 import { useThemeConfig } from '@core/composable/useThemeConfig'
+import { filterInputAttrs } from 'vuetify/lib/util/helpers'
 
 const props = defineProps({
   autofocus: Boolean,

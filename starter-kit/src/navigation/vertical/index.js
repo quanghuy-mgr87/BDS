@@ -31,8 +31,8 @@ export default [
     roleId: [roleEnum.ADMIN, roleEnum.OWNER, roleEnum.MANAGER, roleEnum.MOD, roleEnum.STAFF],
     children: [
       { 
-        title: 'Create bill', 
-        to: 'product-product-management',
+        title: 'Bill list', 
+        to: 'houseViewing-bill',
       },
     ],
   },

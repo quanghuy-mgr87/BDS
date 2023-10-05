@@ -131,6 +131,7 @@ defineExpose({
                 <VCol cols="4">
                   <AppDateTimePicker
                     v-model="productInfo.build"
+                    :label="productInfo.build ? 'Time to build' : ''"
                     placeholder="Choose time to build"
                   />
                 </VCol>
@@ -152,6 +153,7 @@ defineExpose({
                   <AppDateTimePicker  
                     v-model="productInfo.batDauBan"
                     :rules="requireFieldRule"
+                    :label="productInfo.batDauBan ? 'Time to sell' : ''"
                     placeholder="Choose time to sell*"
                   />
                 </VCol>
