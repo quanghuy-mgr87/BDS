@@ -25,7 +25,7 @@ const router = createRouter({
       path: '/product/product-management',
       redirect: to => {
         if(localStorage.getItem('accessToken') && hasRoles([roleEnum.ADMIN, roleEnum.MANAGER, roleEnum.OWNER])) {
-          return { name: 'product-product-management' }
+          return { name: 'product-product-management', query: to.query }
         }
         
         return { name: 'not-authorized', query: to.query }
@@ -36,7 +36,18 @@ const router = createRouter({
       path: '/soldProducts/sold-product-list',
       redirect: to => {
         if(localStorage.getItem('accessToken') && hasRoles([roleEnum.ADMIN, roleEnum.MANAGER, roleEnum.OWNER])) {
-          return { name: 'soldProducts-sold-product-list' }
+          return { name: 'soldProducts-sold-product-list', query: to.query }
+        }
+        
+        return { name: 'not-authorized', query: to.query }
+        
+      },
+    },
+    {
+      path: '/houseViewing/bill',
+      redirect: to => {
+        if(localStorage.getItem('accessToken') && hasRoles([roleEnum.ADMIN, roleEnum.OWNER, roleEnum.MANAGER, roleEnum.MOD, roleEnum.STAFF])) {
+          return { name: 'houseViewing-bill', query: to.query }
         }
         
         return { name: 'not-authorized', query: to.query }

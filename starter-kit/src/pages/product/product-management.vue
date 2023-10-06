@@ -22,7 +22,7 @@ onMounted(() => {
 const getAllProduct = async () => {
   const params = {}
 
-  products.value = (await productStore.getAll(params)).data
+  products.value = (await productStore.getAll(params)).data.data
 }
 
 const deleteProduct = async isConfirm => {
@@ -98,8 +98,9 @@ const openUpdateProductDialog = product => {
           <td>{{ item.certificateOfLand1 }}</td>
           <td>{{ item.certificateOfLand2 }}</td>
           <td>
-            <div style="display: flex; justify-content: space-between">
+            <div style="display: flex;">
               <VBtn
+                style="margin-right: 10px;"
                 variant="text"
                 size="small"
                 @click="openUpdateProductDialog(item)"

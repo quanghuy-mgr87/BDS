@@ -11,7 +11,6 @@ const productInfo = ref({})
 const productStore = useProductStore()
 const loading = ref(false)
 const form = ref()
-const userInfo = ref()
 const emitter = useEmitter()
 
 const requireFieldRule = [
@@ -99,7 +98,7 @@ defineExpose({
     >
       <VCard>
         <VCardTitle>
-          <span class="text-h5">User Profile</span>
+          <span class="text-h5">PRODUCT INFORMATION</span>
         </VCardTitle>
         <VCardText>
           <VContainer>
