@@ -13,5 +13,7 @@ namespace CMS_Design.Payloads.Requests.PhieuXemNhaRequest
         public string CustumerPhoneNumber { get; set; }
         public string CustumerId { get; set; }
         public string Desciption { get; set; }
+        public int NhaId { get; set; }
+        public bool BanThanhCong { get; set; } = false;
     }
 }

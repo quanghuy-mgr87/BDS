@@ -22,7 +22,7 @@ const getAllBill = async () => {
       
     }
 
-    bills.value = (await billStore.getAllBill(params)).data
+    bills.value = (await billStore.getAllBill(params)).data.data
   } catch (error) {
     console.log(error)
     emitter.emit('showAlert', {
@@ -87,7 +87,7 @@ const openUpdateProductDialog = bill => {
             House info
           </th>
           <th class="text-left">
-            Status
+            Sell status
           </th>
           <th class="text-left">
             Action
@@ -104,7 +104,14 @@ const openUpdateProductDialog = bill => {
           <td>{{ item.custumerPhoneNumber }}</td>
           <td>{{ item.desciption }}</td>
           <td>house test</td>
-          <td>status</td>
+          <td>
+            <VSwitch
+              v-model="item.banThanhCong"
+              :color="item.banThanhCong ? 'success' : ''"
+              readonly
+              :label="item.banThanhCong ? 'Sold' : 'Available'"
+            />
+          </td>
           <td>
             <div style="display: flex;">
               <VBtn

@@ -21,6 +21,7 @@ namespace CMS_Design.Payloads.Converters
                 CustumerPhoneNumber = phieuXemNha.CustumerPhoneNumber,
                 Desciption = phieuXemNha.Desciption,
                 CustumerId = phieuXemNha.CustumerId,
+                BanThanhCong = phieuXemNha.BanThanhCong
                 //CustumerIdImg1 = phieuXemNha.CustumerIdImg1,
                 //CustumerIdImg2 = phieuXemNha.CustumerIdImg2
             };

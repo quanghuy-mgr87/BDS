@@ -17,6 +17,7 @@ namespace CMS_Design.Payloads.DTOs.DataResponsePhieuXemNha
         public string CustumerIdImg2 { get; set; }
         public string Desciption { get; set; }
         public int NhaId { get; set; }
+        public bool BanThanhCong { get; set; }
         public DateTime CreateTime { get; set; }
     }
 }

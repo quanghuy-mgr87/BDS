@@ -91,6 +91,8 @@ namespace CMS_ActionLayer.Service
             phieuXemNha.CustumerPhoneNumber = request.CustumerPhoneNumber;
             phieuXemNha.CustumerId = request.CustumerId;
             phieuXemNha.CustumerName = request.CustumerName;
+            phieuXemNha.BanThanhCong = request.BanThanhCong;
+            phieuXemNha.NhaId = request.NhaId;
             _context.phieuXemNhas.Update(phieuXemNha);
             await _context.SaveChangesAsync();
             return _responseObject.ResponseSuccess("Cập nhật thông tin phiếu xem nhà thành công", _phieuXemNhaConverter.EntityToDTO(phieuXemNha));

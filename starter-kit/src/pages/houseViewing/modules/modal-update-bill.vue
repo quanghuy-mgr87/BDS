@@ -1,8 +1,8 @@
 <script setup>
-import { ref } from 'vue'
 import useEmitter from '@/helper/useEmitter'
 import { useBillStore } from '@/services/bill/useBillStore'
 import { useProductStore } from '@/services/product-services/useProductStore'
+import { ref } from 'vue'
 
 const emit = defineEmits(['refreshData'])
 
@@ -154,6 +154,13 @@ defineExpose({
                     item-value="id"
                     item-title="title"
                     label="Select house"
+                  />
+                </VCol>
+                <VCol cols="4">
+                  <VSwitch
+                    v-model="houseViewingBill.banThanhCong"
+                    label="Is sold?"
+                    :color="houseViewingBill.banThanhCong ? 'success' : ''"
                   />
                 </VCol>
               </VRow>

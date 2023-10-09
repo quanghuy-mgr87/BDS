@@ -26,7 +26,15 @@ namespace CMS.Web.Controllers
         [Authorize(Roles = "Admin, Owner, Manager, Mod, Staff")]
         public async Task<IActionResult> UpdatePhieuXemNha(Request_UpdatePhieuXemNha request)
         {
-            return Ok(await _phieuXemNhaService.UpdatePhieuXemNha(request));
+            try
+            {
+                return Ok(await _phieuXemNhaService.UpdatePhieuXemNha(request));
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
         [HttpDelete("/api/phieuxemnha/DeletePhieuXemNha/{phieuXemNhaId}")]
         [Authorize(Roles = "Admin, Owner, Manager, Mod, Staff")]
